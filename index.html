@@ -4,6 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>EVENTI nel DOM</title>
+    <link rel="stylesheet" href="./assets/css/style.css" />
   </head>
   <body>
     <header>
@@ -11,7 +12,7 @@
     </header>
     <main>
       <h2>Creiamo qualche bottone</h2>
-      <div>
+      <div id="button-area">
         <button
           onclick="handleClick(event)"
           onmouseenter="handleMouseEnter(event)"
@@ -19,6 +20,10 @@
           BOTTONE 1
         </button>
         <input type="button" value="BOTTONE 2" onclick="handleClick(event)" />
+        <!-- il terzo bottone finirà qui! -->
+      </div>
+      <div id="img-container">
+        <!-- l'immagine finirà qua! -->
       </div>
     </main>
     <script src="./js/events.js"></script>

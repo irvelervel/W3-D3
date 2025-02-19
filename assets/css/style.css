@@ -1,0 +1,9 @@
+.img-dog {
+  width: 500px;
+  height: 500px;
+  border-radius: 25px;
+}
+
+.bigger {
+  transform: scale(1.2);
+}
