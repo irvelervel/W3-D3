@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>GESTIONE FORMS IN JS</title>
+  </head>
+  <body>
+    <header>
+      <h1>Come recuperare i dati da un form</h1>
+    </header>
+    <main>
+      <form>
+        <div>
+          <label for="firstname">Nome</label>
+          <input class="form-element" id="firstname" type="text" />
+        </div>
+        <div>
+          <label for="lastname">Cognome</label>
+          <input class="form-element" id="lastname" type="text" />
+        </div>
+        <div>
+          <label for="age">Età</label>
+          <input class="form-element" id="age" type="number" />
+        </div>
+        <div>
+          <label for="email">Email</label>
+          <input class="form-element" id="email" type="email" />
+        </div>
+        <div>
+          <label for="children">Figli a carico</label>
+          <select class="form-element" id="children">
+            <option>0</option>
+            <option>1</option>
+            <option>2</option>
+            <option>>2</option>
+          </select>
+        </div>
+        <div>
+          <label for="bio">Dettagli</label>
+          <textarea class="form-element" id="bio" rows="5"></textarea>
+        </div>
+        <!-- questo bottone, anche senza ulteriori istruzioni, è automaticamente
+         diventato un bottone di "submit" (perchè si trova all'interno di un <form>)
+        -->
+        <button>INVIA</button>
+      </form>
+    </main>
+    <script src="./js/forms.js"></script>
+  </body>
+</html>
