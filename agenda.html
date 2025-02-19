@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>EPICODE AGENDA APP</title>
+    <link rel="stylesheet" href="./assets/css/agenda.css" />
+  </head>
+  <body>
+    <header>
+      <nav>
+        <ul>
+          <li>Home</li>
+          <li>Calendar</li>
+          <li>Agenda</li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <h1>EPICODE AGENDA APP</h1>
+      <form id="new-contact-form">
+        <div>
+          <label for="firstname">Nome</label>
+          <input id="firstname" type="text" />
+        </div>
+        <div>
+          <label for="lastname">Cognome</label>
+          <input id="lastname" type="text" />
+        </div>
+        <div>
+          <label for="phone">N. telefono</label>
+          <input id="phone" type="tel" />
+        </div>
+        <div>
+          <button type="submit">SALVA CONTATTO</button>
+        </div>
+      </form>
+      <section>
+        <div id="saved-contacts"></div>
+      </section>
+    </main>
+    <footer><span id="current-year"></span> - EPICODE</footer>
+    <script src="./js/agenda.js"></script>
+  </body>
+</html>
